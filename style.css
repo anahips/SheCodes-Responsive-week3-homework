@@ -110,6 +110,10 @@ p {
 }
 
 @media (max-width: 576px) {
+  body {
+    padding: 10px;
+  }
+
   h1 {
     font-size: 48px;
   }
@@ -137,5 +141,17 @@ p {
   .weather-button,
   .yogurt-button {
     display: block;
+  }
+
+  .about-introduction {
+    margin: 20px 0;
+  }
+
+  .contact-me {
+    font-size: 28px;
+  }
+
+  .yogurt-button {
+    margin: 0 0 20px 0;
   }
 }
