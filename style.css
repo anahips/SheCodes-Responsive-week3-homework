@@ -108,3 +108,34 @@ p {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
   padding: 5px;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .yoga-photo,
+  .weather-photo,
+  .yogurt-photo {
+    display: none;
+  }
+  h4 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .yoga-button,
+  .weather-button,
+  .yogurt-button {
+    display: block;
+  }
+}
